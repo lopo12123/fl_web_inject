@@ -18,6 +18,12 @@ function saveImage(bytes) {
     // a.click();
 }
 
+window.jsObj = {
+    name: 'lopo',
+    age: 18,
+    happy: true
+}
+
 _flutter.loader.load()
 // _flutter.loader.load({
 //     onEntrypointLoaded: async function onEntrypointLoaded(engineInitializer) {
